@@ -1,0 +1,76 @@
+# value
+* Equals
+* Empty
+* Nan
+* Null
+* Infinite
+* GreaterThan
+* GreaterThanOrEqual
+* LessThan
+* LessThanOrEqual
+# string
+* StringContainsString
+* StringContainsStringIgnoringCase
+# format, regex
+* MatchesRegularExpression
+* StringMatchesFormat
+* StringStartsWith
+* StringEndsWith
+## file
+* StringMatchesFormatFile
+* StringEqualsFile
+# array
+* EqualsIgnoringCase
+* ArrayHasKey
+* Contains
+## type
+* ContainsOnly
+* ContainsOnlyInstancesOf
+## size
+* Count
+
+## sorted order
+* EqualsCanonicalizing
+# bool
+* False
+* True
+# object
+* ClassHasAttribute
+* ClassHasStaticAttribute
+* InstanceOf
+* ObjectHasAttribute
+# file
+* DirectoryExists
+* DirectoryIsReadable
+* DirectoryIsWritable
+* FileExists
+* FileEquals
+* FileIsReadable
+* FileIsWritable
+* IsReadable
+* IsWritable
+#float
+* EqualsWithDelta
+# type assert
+* IsArray
+* IsBool
+* IsCallable
+* IsFloat
+* IsInt
+* IsIterable
+* IsNumeric
+* IsObject
+* IsResource
+* IsScalar
+* IsString
+* Same
+* That
+# struct
+* JsonStringEqualsJsonString
+* XmlStringEqualsXmlString
+
+## file
+* JsonFileEqualsJsonFile
+* JsonStringEqualsJsonFile
+* XmlFileEqualsXmlFile
+* XmlStringEqualsXmlFile
